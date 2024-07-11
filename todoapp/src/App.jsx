@@ -1,6 +1,6 @@
 import Todo from "./component/Todo";
 import Heading from "./component/Heading";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
