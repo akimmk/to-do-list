@@ -1,5 +1,9 @@
-export default function Todolist({item}) {
-  return <div>
-    <h3>{item}</h3>
-  </div>;
+import TodoItem from "./TodoItem";
+
+export default function TodoList({todos}){
+  return (<div>
+    {todos.map((item) => (
+    <TodoItem key={item} item={item} />
+  ))}
+  </div>);
 }
